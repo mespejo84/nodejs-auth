@@ -1,0 +1,35 @@
+{
+  "name": "nodejs-auth",
+  "version": "1.0.0",
+  "description": "NodeJS Auth api",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "gulp",
+    "start": "node ./dist/index.js",
+    "start:dev": "cross-env gulp serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mespejo84/nodejs-auth.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mespejo84/nodejs-auth/issues"
+  },
+  "homepage": "https://github.com/mespejo84/nodejs-auth#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.6",
+    "cross-env": "^7.0.2",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-load-plugins": "^2.0.3",
+    "gulp-nodemon": "^2.5.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "typescript": "^3.9.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "openid-client": "^3.15.2"
+  }
+}
